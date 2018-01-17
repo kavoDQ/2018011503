@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = sp.edit();
         EditText ed = findViewById(R.id.editText);
         editor.putString("地名",ed.getText().toString());
-        editor.commit();
+        editor.commit(); //123
     }
 
     public void CL2(View v)
